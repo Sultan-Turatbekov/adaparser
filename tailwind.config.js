@@ -17,7 +17,15 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        dark_full: 'var(--footer-full)',
+      },
+      backgroundColor:{
+        dark: 'var(--dark-color)',
+      },
       colors: {
+
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

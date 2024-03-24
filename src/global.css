@@ -4,6 +4,9 @@
 
 @layer base {
   :root {
+    --footer-full: radial-gradient(circle, rgba(36,43,51,1) 0%, rgba(16,24,32,1) 70%);
+    --dark-color: rgba(16,24,32,1);
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
