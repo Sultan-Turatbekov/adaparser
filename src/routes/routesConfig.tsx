@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
 import App from '../App'
-import {Second} from '../components/Second/Second'
 import {Home} from '@/src/common/Home/Home'
 import {NotFoundPage} from "../components/NotFoundPage/NotFoundPage.tsx";
+import {ParsingsList} from "@/src/components/ParsingsList/ParsingsList.tsx";
 const routeConfig = createBrowserRouter([
 	{
         path: '/',
@@ -15,8 +15,8 @@ const routeConfig = createBrowserRouter([
             errorElement: <NotFoundPage/>
           },
           { 
-            path: '/second',
-            element: <Second/>,
+            path: '/parsings-list',
+            element: <ParsingsList/>,
             errorElement: <NotFoundPage/>
           }
         ]
