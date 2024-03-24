@@ -1,4 +1,4 @@
-import {AllParsings} from "@/src/components/AllParsings/AllParsing.tsx";
+import {AllParsings} from "@/src/components/shared/AllParsings/AllParsing.tsx";
 
 export const Home = () => {
     return(
