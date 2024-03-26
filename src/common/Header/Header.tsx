@@ -3,7 +3,7 @@ import  adaUse  from './adaUse.json';
 import  resources  from './resources.json';
 import { BurgerMenu } from "../../components/shared/burgerMenu/BurgerMenu";
 import "./style.scss"
-// import styles from '../Footer/Footer.module.css'
+
 
 
 import {
