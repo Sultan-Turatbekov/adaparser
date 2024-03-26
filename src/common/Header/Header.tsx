@@ -57,7 +57,7 @@ export const Header = () => {
                 </NavigationMenuItem>
             </NavigationMenuList>
             <Link to="/parsings-list"><h2 className="NavigationMenuTrigge NavigationMenuTrigg">Парсеры</h2></Link>
-            <Link to="/servicesPage"><h2 className="NavigationMenuTrigge">Услуги</h2></Link>
+            <Link to="/services"><h2 className="NavigationMenuTrigge">Услуги</h2></Link>
             <Link to="#"><h2 className="NavigationMenuTrigge">Форум</h2></Link>
             </NavigationMenu>
             <Link to="#"><button className="header_button">Купить ADA-Parser</button></Link>
