@@ -1,13 +1,71 @@
 import {Link} from "react-router-dom";
-import {Button} from "@/src/components/ui/button.tsx";
+import  adaUse  from './adaUse.json';
+import  resources  from './resources.json';
+import { BurgerMenu } from "../../components/shared/burgerMenu/BurgerMenu";
+import styles from './Header.module.scss';
 
-export const Header = () => {
-    return(
-        <header>
-            <Button className={`bg-blue-600 text-red-700 p-3 underline hover:bg-yellow-500`}>Adil</Button>
-            <Link to={`/`} className={`bg-black text-red-700 p-3`}>Home</Link>
-            <Link to={`/parsings-list`}>Second</Link>
-            <Link to={`/any`}>any</Link>
+
+
+
+import {
+    NavigationMenu,
+    NavigationMenuContent,
+    NavigationMenuItem,
+    NavigationMenuLink,
+    NavigationMenuList,
+    NavigationMenuTrigger,
+  } from "@/src/components/ui/navigation-menu"
+
+
+  export const Header = () => {
+    return (
+        <header className={`${styles.full_bleed }`}>
+            <div className={styles.header_container}>
+                <NavigationMenu className={styles.NavigationMenu}>
+                    <div className={styles.header_logoContainer}>
+                        <Link to="/">
+                            <img src="logoWi.svg" alt="logo" />
+                        </Link>
+                    </div>
+                    <NavigationMenuList className={styles.NavigationMenuItem}>
+                        <NavigationMenuItem >
+                            <NavigationMenuTrigger className={styles.NavigationMenuTrigger}>Кто использует ADA-Parser</NavigationMenuTrigger>
+                            <NavigationMenuContent className={styles.NavigationMenuContent}>
+                                {adaUse.map((item) => (
+                                    <Link to="#" key={item.subtitle}>
+                                        <div className={styles.Header_link}>
+                                            <img className={styles.Header_link_img} src={item.img} alt="" />
+                                            <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
+                                            <p>{item.text}</p>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </NavigationMenuContent>
+                        </NavigationMenuItem>
+
+                        <NavigationMenuItem>
+                            <NavigationMenuTrigger className={styles.NavigationMenuTrigger}>Ресурсы</NavigationMenuTrigger>
+                            <NavigationMenuContent className={styles.NavigationMenuContent2}>
+                                {resources.map((item) => (
+                                    <div key={item.subtitle} className={styles.Header_link}>
+                                        <img className={styles.Header_link_img} src={item.img} alt="" />
+                                        <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
+                                        <p>{item.text}</p>
+                                    </div>
+                                ))}
+                            </NavigationMenuContent>
+                        </NavigationMenuItem>
+                    </NavigationMenuList>
+                    <Link to="/parsings-list"><h2 className={`${styles.NavigationMenuTrigger} ${styles.NavigationMenuTrigg}`}>Парсеры</h2></Link>
+                    <Link to="/servicesPage"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
+                    <Link to="#"><h2 className={styles.NavigationMenuTrigge}>Форум</h2></Link>
+                </NavigationMenu>
+                <Link to="#"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
+                <BurgerMenu />
+                <div className={styles.header_logo_media}>
+                    <img src="logoWi.svg" alt="" />
+                </div>
+            </div>
         </header>
-    )
+    );
 }
