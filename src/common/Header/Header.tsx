@@ -5,8 +5,6 @@ import { BurgerMenu } from "../../components/shared/burgerMenu/BurgerMenu";
 import styles from './Header.module.scss';
 
 
-
-
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -32,7 +30,7 @@ import {
                             <NavigationMenuTrigger className={styles.NavigationMenuTrigger}>Кто использует ADA-Parser</NavigationMenuTrigger>
                             <NavigationMenuContent className={styles.NavigationMenuContent}>
                                 {adaUse.map((item) => (
-                                    <Link to="#" key={item.subtitle}>
+                                    <Link to={item.link} key={item.subtitle}>
                                         <div className={styles.Header_link}>
                                             <img className={styles.Header_link_img} src={item.img} alt="" />
                                             <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
@@ -57,7 +55,7 @@ import {
                         </NavigationMenuItem>
                     </NavigationMenuList>
                     <Link to="/parsings-list"><h2 className={`${styles.NavigationMenuTrigger} ${styles.NavigationMenuTrigg}`}>Парсеры</h2></Link>
-                    <Link to="/servicesPage"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
+                    <Link to="/services"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
                     <Link to="#"><h2 className={styles.NavigationMenuTrigge}>Форум</h2></Link>
                 </NavigationMenu>
                 <Link to="#"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
