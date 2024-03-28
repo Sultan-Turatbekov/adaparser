@@ -1,13 +1,13 @@
 
 [
     {
-        "img": "../../../public/header img/seo.png",
+        "img": "public/header img/seo.png",
         "subtitle": "SEO специалисты и студии",
         "text": "Сбор SEO метрик, поисковых запросов и подсказок, всех данных с выдачи",
         "link": "seo"
     },
     {
-        "img": "../../../public/header img/бизнес и фрилансеры.png",
+        "img": "../../../public/allParsingsIco/ahref.jpeg",
         "subtitle": "Бизнес и фрилансеры",
         "text": "Автоматизация рутинных процессов. Создание собственных SaaS сервисов",
         "link": "business"
