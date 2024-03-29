@@ -1,37 +1,37 @@
 
 [
     {
-        "img": "header_img/seo.png",
+        "img": "headerImages/seo.png",
         "subtitle": "SEO специалисты и студии",
         "text": "Сбор SEO метрик, поисковых запросов и подсказок, всех данных с выдачи",
         "link": "seo"
     },
     {
-        "img": "../../../public/allParsingsIco/ahref.jpeg",
+        "img": "",
         "subtitle": "Бизнес и фрилансеры",
         "text": "Автоматизация рутинных процессов. Создание собственных SaaS сервисов",
         "link": "business"
     },
     {
-        "img": "../../../public/allParsingsIco/amazon_ico.png",
+        "img": "",
         "subtitle": "Интернет-магазины",
         "text": "Парсинг маркетплейсов и интернет-магазинов, мониторинг цен, наполнение своих магазинов",
         "link": "onlinestores"
     },
     {
-        "img": "../../../public/header_img/маркетологи и аналитики.png",
+        "img": "",
         "subtitle": "Маркетологи и аналитики",
         "text": "Маркетинговые исследования рынка, поисковой выдачи, сбор данных",
         "link": "marketers"
     },
     {
-        "img": "header_img/разработчики.png",
+        "img": "",
         "subtitle": "Разработчики",
         "text": "Создавайте парсеры на JavaScript любого уровня сложности и логики",
         "link": "seo"
     },
     {
-        "img": "../../../public/header_img/arbitrag.png",
+        "img": "",
         "subtitle": "Арбитражники",
         "text": "Множество инструментов для генерации трафика и автоматизации арбитража",
         "link": "seo"
