@@ -1,7 +1,7 @@
 
 [
     {
-        "img": "public/header_img/seo.png",
+        "img": "header_img/seo.png",
         "subtitle": "SEO специалисты и студии",
         "text": "Сбор SEO метрик, поисковых запросов и подсказок, всех данных с выдачи",
         "link": "seo"
@@ -25,7 +25,7 @@
         "link": "marketers"
     },
     {
-        "img": "../../../public/header_img/разработчики.png",
+        "img": "header_img/разработчики.png",
         "subtitle": "Разработчики",
         "text": "Создавайте парсеры на JavaScript любого уровня сложности и логики",
         "link": "seo"
