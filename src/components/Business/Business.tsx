@@ -9,7 +9,7 @@ function Business() {
         <AllEnterLink dataJson={businessDataJson}/>
         <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="../../../public/Business/replaceEntireTeam.jpg" alt="" />
+          <img src="Business/replaceEntireTeam.jpg" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>ADA-Parser способен заменить целую команду</h3>
@@ -25,13 +25,13 @@ function Business() {
           <p className={styles.services_text}>Ключевым преимуществом для вас может стать то, что вы сами в дальнейшем сможете парсить данные, купив лицензию A-Parser с пресетом под ваше задание</p>
       </div>
       <div className={styles.services_imgConteiner}>
-          <img src="../../../public/Business/better.png" alt="services" />
+          <img src="Business/better.png" alt="" />
       </div>
     </div>
 
     <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="../../../public/Business/costParsing.png" alt="services" />
+          <img src="Business/costParsing.png" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>Стоимость парсинга данных по вашим техническим заданиям</h3>
