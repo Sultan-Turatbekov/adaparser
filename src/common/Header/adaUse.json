@@ -7,31 +7,31 @@
         "link": "seo"
     },
     {
-        "img": "allParsingsIco/mail_ico.png",
+        "img": "headerImages/bisness.png",
         "subtitle": "Бизнес и фрилансеры",
         "text": "Автоматизация рутинных процессов. Создание собственных SaaS сервисов",
         "link": "business"
     },
     {
-        "img": "",
+        "img": "headerImages/onlineStore.png",
         "subtitle": "Интернет-магазины",
         "text": "Парсинг маркетплейсов и интернет-магазинов, мониторинг цен, наполнение своих магазинов",
         "link": "onlinestores"
     },
     {
-        "img": "",
+        "img": "headerImages/marketings.png",
         "subtitle": "Маркетологи и аналитики",
         "text": "Маркетинговые исследования рынка, поисковой выдачи, сбор данных",
         "link": "marketers"
     },
     {
-        "img": "",
+        "img": "headerImages/dev.png",
         "subtitle": "Разработчики",
         "text": "Создавайте парсеры на JavaScript любого уровня сложности и логики",
         "link": "seo"
     },
     {
-        "img": "",
+        "img": "headerImages/arbitrag.png",
         "subtitle": "Арбитражники",
         "text": "Множество инструментов для генерации трафика и автоматизации арбитража",
         "link": "seo"

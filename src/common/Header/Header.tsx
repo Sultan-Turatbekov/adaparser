@@ -46,7 +46,7 @@ import {
                             <NavigationMenuContent className={styles.NavigationMenuContent2}>
                                 {resources.map((item) => (
                                     <div key={item.subtitle} className={styles.Header_link}>
-                                        <img className={styles.Header_link_img} src={item.img} alt={item.text} />
+                                        <img className={styles.Header_link_img} src={item.img} alt="" />
                                         <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
                                         <p>{item.text}</p>
                                     </div>
