@@ -56,7 +56,6 @@ import {
                     </NavigationMenuList>
                     <Link to="/parsings-list"><h2 className={`${styles.NavigationMenuTrigger} ${styles.NavigationMenuTrigg}`}>Парсеры</h2></Link>
                     <Link to="/services"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
-                    <Link to="#"><h2 className={styles.NavigationMenuTrigge}>Форум</h2></Link>
                 </NavigationMenu>
                 <Link to="#"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
                 <BurgerMenu />

@@ -1,7 +1,7 @@
 
 [
     {
-        "img": "public/header img/seo.png",
+        "img": "public/header_img/seo.png",
         "subtitle": "SEO специалисты и студии",
         "text": "Сбор SEO метрик, поисковых запросов и подсказок, всех данных с выдачи",
         "link": "seo"
@@ -13,25 +13,25 @@
         "link": "business"
     },
     {
-        "img": "../../../public/header img/интернет магази.png",
+        "img": "../../../public/allParsingsIco/amazon_ico.png",
         "subtitle": "Интернет-магазины",
         "text": "Парсинг маркетплейсов и интернет-магазинов, мониторинг цен, наполнение своих магазинов",
         "link": "onlinestores"
     },
     {
-        "img": "../../../public/header img/маркетологи и аналитики.png",
+        "img": "../../../public/header_img/маркетологи и аналитики.png",
         "subtitle": "Маркетологи и аналитики",
         "text": "Маркетинговые исследования рынка, поисковой выдачи, сбор данных",
         "link": "marketers"
     },
     {
-        "img": "../../../public/header img/разработчики.png",
+        "img": "../../../public/header_img/разработчики.png",
         "subtitle": "Разработчики",
         "text": "Создавайте парсеры на JavaScript любого уровня сложности и логики",
         "link": "seo"
     },
     {
-        "img": "../../../public/header img/арбитражники.png",
+        "img": "../../../public/header_img/arbitrag.png",
         "subtitle": "Арбитражники",
         "text": "Множество инструментов для генерации трафика и автоматизации арбитража",
         "link": "seo"
