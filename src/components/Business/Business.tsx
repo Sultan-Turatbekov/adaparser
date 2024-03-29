@@ -9,7 +9,7 @@ function Business() {
         <AllEnterLink dataJson={businessDataJson}/>
         <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>ADA-Parser способен заменить целую команду</h3>
