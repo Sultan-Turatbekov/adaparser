@@ -13,7 +13,7 @@
         "link": "business"
     },
     {
-        "img": "../../../public/header img/интернет магази.png",
+        "img": "../../../public/allParsingsIco/amazon_ico.png",
         "subtitle": "Интернет-магазины",
         "text": "Парсинг маркетплейсов и интернет-магазинов, мониторинг цен, наполнение своих магазинов",
         "link": "onlinestores"
