@@ -1,6 +1,6 @@
 import businessDataJson from "./businessDataJson.json"
 import AllEnterLink from "../shared/AllEnterLink/AllEnterLink"
-import businessInfo from "./businessInfo.json"
+import Infoabout from "../shared/Infoabout/Infoabout"
 import styles from "./styles.module.scss"
 
 function Business() {
@@ -9,7 +9,7 @@ function Business() {
         <AllEnterLink dataJson={businessDataJson}/>
         <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="" />
+          <img src="../../../public/Business/replaceEntireTeam.jpg" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>ADA-Parser способен заменить целую команду</h3>
@@ -25,13 +25,13 @@ function Business() {
           <p className={styles.services_text}>Ключевым преимуществом для вас может стать то, что вы сами в дальнейшем сможете парсить данные, купив лицензию A-Parser с пресетом под ваше задание</p>
       </div>
       <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="../../../public/Business/better.png" alt="services" />
       </div>
     </div>
 
     <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="../../../public/Business/costParsing.png" alt="services" />
       </div>
       <div>
           <h3 className={styles.services_title}>Стоимость парсинга данных по вашим техническим заданиям</h3>
@@ -40,15 +40,7 @@ function Business() {
       </div>
     </div>
 
-    <div className={styles.schemeOfWork_info_conteiner}>
-        {businessInfo.map((item)=>(
-          <div className={styles.schemeOfWork_info}>
-          <img className={styles.schemeOfWork_info_img} src={item.img} alt="" />
-          <h3 className={styles.schemeOfWork_info_title}>{item.subtitle}</h3>
-          <h4 className={styles.schemeOfWork_info_subtitle}>{item.text}</h4>
-        </div>
-        ))}
-    </div>
+    <Infoabout/>
 
     </div>
     
