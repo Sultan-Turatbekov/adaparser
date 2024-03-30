@@ -2,22 +2,26 @@
     {
         "img": "headerImages/doc.svg",
         "subtitle": "Документация",
-        "text": "Руководство по использованию A-Parser"
+        "text": "Руководство по использованию A-Parser",
+        "link": "#"
     },
     {
         "img": "headerImages/catalog.svg",
         "subtitle": "Каталог",
-        "text": "Примеры готовых пресетов, парсеров"
+        "text": "Примеры готовых пресетов, парсеров",
+        "link": "#"
     },
     {
         "img": "headerImages/youtube.svg ",
         "subtitle": "Youtube канал",
-        "text": "Обучающие ролики по применению A-Parser"
+        "text": "Обучающие ролики по применению A-Parser",
+        "link": "#"
     },
     {
         "img": "headerImages/telegram.svg",
         "subtitle": "Телеграм чат",
-        "text": "Чат для пользователей и тех поддержки"
+        "text": "Чат для пользователей и тех поддержки",
+        "link": "#"
     }
 ]
 

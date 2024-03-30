@@ -1,4 +1,4 @@
-import servicesInfo from "./servicesInfo.json"
+import Infoabout from "../shared/Infoabout/Infoabout"
 import servicesDataJson from "./servicesDataJson.json"
 import AllEnterLink from "../shared/AllEnterLink/AllEnterLink"
 import styles from "./Services.module.scss"
@@ -46,16 +46,8 @@ function Services() {
             <h3 className={styles.schemeOfWork_title}>Схема работы</h3>
             <h4 className={styles.schemeOfWork_subtitle}>Услуги парсинга данных позволяют получить нужную информацию не тратя свое время</h4>
         </div>
-        <div className={styles.schemeOfWork_info_conteiner}>
-        {servicesInfo.map((item)=>(
-          <div className={styles.schemeOfWork_info}>
-          <img className={styles.schemeOfWork_info_img} src={item.img} alt="" />
-          <h3 className={styles.schemeOfWork_info_title}>{item.subtitle}</h3>
-          <h4 className={styles.schemeOfWork_info_subtitle}>{item.text}</h4>
-        </div>
-        ))}
-    </div>
         
+        <Infoabout/>
         
     </div>
 
