@@ -14,7 +14,7 @@ const AllEnterLink: FC<AllEnterLinkProps> = ({ dataJson }) => {
               <button className={styles.allEnterLink_btn}>Заявка на парсинг</button>
             </div>
             <div className={styles.allEnterLink_imgConteiner}>
-              <img src={item.img} alt="services" />
+              <img src={item.img} alt="" />
             </div>
           </div>
         ))}
