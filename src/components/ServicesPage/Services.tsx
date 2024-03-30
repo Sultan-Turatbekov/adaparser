@@ -10,7 +10,7 @@ function Services() {
 
     <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="servicesPage/servicesPage3.png" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>Индивидуальные решения каждой задачи</h3>
@@ -26,13 +26,13 @@ function Services() {
           <p className={styles.services_text}>Ключевым преимуществом для вас может стать то, что вы сами в дальнейшем сможете парсить данные, купив лицензию A-Parser с пресетом под ваше задание</p>
       </div>
       <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="servicesPage/ServicesPage2.png" alt="" />
       </div>
     </div>
 
     <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="https://www.rush-analytics.ru/wp-content/uploads/2021/10/pic_6_etapi_raboti_v_parsere.jpg" alt="services" />
+          <img src="servicesPage/servicesPage3.svg" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>Стоимость парсинга данных по вашим техническим заданиям</h3>
