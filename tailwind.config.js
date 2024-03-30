@@ -24,7 +24,8 @@ module.exports = {
         dark: 'var(--dark-color)',
       },
       colors: {
-
+        blue_custom: "var(--blue-color)",
+        blue_hover: "var(--blue-color-hover)",
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
