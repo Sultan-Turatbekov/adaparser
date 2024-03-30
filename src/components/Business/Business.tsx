@@ -4,7 +4,7 @@ import Infoabout from "../shared/Infoabout/Infoabout"
 import styles from "./styles.module.scss"
 // import better from "../../../public/Business/better.png"
 // import costParsing from "../../../public/Business/costParsing.png"
-import replaceEntireTeam from "../../../public/Business/replaceEntireTeam.jpg"
+import replaceEntireTeam from "../../../public/business/replaceEntireTeam.jpg"
 
 function Business() {
   return (
@@ -28,13 +28,13 @@ function Business() {
           <p className={styles.services_text}>Ключевым преимуществом для вас может стать то, что вы сами в дальнейшем сможете парсить данные, купив лицензию A-Parser с пресетом под ваше задание</p>
       </div>
       <div className={styles.services_imgConteiner}>
-          <img src="../../../public/Business/replaceEntireTeam.jpg" alt="" />
+          <img src="../../../public/business/replaceEntireTeam.jpg" alt="" />
       </div>
     </div>
 
     <div className={styles.services_reverse}>
     <div className={styles.services_imgConteiner}>
-          <img src="Business/replaceEntireTeam.jpg" alt="" />
+          <img src="business/replaceEntireTeam.jpg" alt="" />
       </div>
       <div>
           <h3 className={styles.services_title}>Стоимость парсинга данных по вашим техническим заданиям</h3>
