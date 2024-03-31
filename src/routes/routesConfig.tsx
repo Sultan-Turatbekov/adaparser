@@ -3,6 +3,7 @@ import App from '../App'
 import {Home} from '@/src/common/Home/Home'
 import {NotFoundPage} from "../components/NotFoundPage/NotFoundPage.tsx";
 import {ParsingsList} from "@/src/components/ParsingsList/ParsingsList.tsx";
+import { BrifParsers } from '../components/shared/BrifParsers/BrifParsers.tsx';
 const routeConfig = createBrowserRouter([
 	{
         path: '/',
@@ -17,6 +18,11 @@ const routeConfig = createBrowserRouter([
           { 
             path: '/parsings-list',
             element: <ParsingsList/>,
+            errorElement: <NotFoundPage/>
+          },
+          { 
+            path: '/fill-brif',
+            element: <BrifParsers/>,
             errorElement: <NotFoundPage/>
           }
         ]
