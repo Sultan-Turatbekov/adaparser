@@ -57,7 +57,6 @@ export const BurgerMenu = () => {
                                                 <div key={item.subtitle} className={styles.Header__link}>
                                                     <img className={styles.Header__link_img} src={item.img} alt="" />
                                                     <NavigationMenuLink className={styles.Header__link_subtitle}>{item.subtitle}</NavigationMenuLink>
-
                                                 </div>
                                                 </Link>
                                             ))}

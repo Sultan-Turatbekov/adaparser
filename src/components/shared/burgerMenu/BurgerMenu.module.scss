@@ -25,10 +25,9 @@
     }
     .NavigationMenuContent{
         display: grid;
-        grid-template-columns: 120px 120px ;
+        grid-template-columns: 100px 100px ;
         
         .Header__link{
-
             padding: 15px 10px;
             border-radius: 15px;
             
@@ -102,7 +101,6 @@
             position: absolute;
             top: 26px;
             right: 25px;
-            // color: #ffffff;
         }
     }
 }

@@ -25,18 +25,20 @@ import {
                             <img src="logoWi.svg" alt="logo" />
                         </Link>
                     </div>
-                    <NavigationMenuList className={styles.NavigationMenuItem}>
-                        <NavigationMenuItem >
+                    <NavigationMenuList className={styles.NavigationMenuList}>
+                        <NavigationMenuItem className={styles.NavigationMenuItem}>
                             <NavigationMenuTrigger className={styles.NavigationMenuTrigger}>Кто использует ADA-Parser</NavigationMenuTrigger>
                             <NavigationMenuContent className={styles.NavigationMenuContent}>
                                 {adaUse.map((item) => (
+                                    <NavigationMenuLink >
                                     <Link to={item.link} key={item.subtitle}>
                                         <div className={styles.Header_link}>
                                             <img className={styles.Header_link_img} src={item.img} alt="" />
-                                            <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
+                                            <h3 className={styles.Header_link_subtitle}>{item.subtitle}</h3>
                                             <p>{item.text}</p>
                                         </div>
                                     </Link>
+                                    </NavigationMenuLink>
                                 ))}
                             </NavigationMenuContent>
                         </NavigationMenuItem>
@@ -45,11 +47,13 @@ import {
                             <NavigationMenuTrigger className={styles.NavigationMenuTrigger}>Ресурсы</NavigationMenuTrigger>
                             <NavigationMenuContent className={styles.NavigationMenuContent2}>
                                 {resources.map((item) => (
+                                    <NavigationMenuLink>
                                     <div key={item.subtitle} className={styles.Header_link}>
                                         <img className={styles.Header_link_img} src={item.img} alt="" />
-                                        <NavigationMenuLink className={styles.Header_link_subtitle}>{item.subtitle}</NavigationMenuLink>
+                                        <h3 className={styles.Header_link_subtitle}>{item.subtitle}</h3>
                                         <p>{item.text}</p>
                                     </div>
+                                    </NavigationMenuLink>
                                 ))}
                             </NavigationMenuContent>
                         </NavigationMenuItem>
