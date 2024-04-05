@@ -1,6 +1,7 @@
-import servicesInfo from "./servicesInfo.json"
+import Infoabout from "../shared/Infoabout/Infoabout"
 import servicesDataJson from "./servicesDataJson.json"
 import AllEnterLink from "../shared/AllEnterLink/AllEnterLink"
+import { Pricing } from "../shared/Pricing/Pricing"
 import styles from "./Services.module.scss"
 
 function Services() {
@@ -26,7 +27,7 @@ function Services() {
           <p className={styles.services_text}>Ключевым преимуществом для вас может стать то, что вы сами в дальнейшем сможете парсить данные, купив лицензию A-Parser с пресетом под ваше задание</p>
       </div>
       <div className={styles.services_imgConteiner}>
-          <img src="servicesPage/ServicesPage2.png" alt="" />
+          <img src="servicesPage/servicesPage2.png" alt="" />
       </div>
     </div>
 
@@ -46,16 +47,8 @@ function Services() {
             <h3 className={styles.schemeOfWork_title}>Схема работы</h3>
             <h4 className={styles.schemeOfWork_subtitle}>Услуги парсинга данных позволяют получить нужную информацию не тратя свое время</h4>
         </div>
-        <div className={styles.schemeOfWork_info_conteiner}>
-        {servicesInfo.map((item)=>(
-          <div className={styles.schemeOfWork_info}>
-          <img className={styles.schemeOfWork_info_img} src={item.img} alt="" />
-          <h3 className={styles.schemeOfWork_info_title}>{item.subtitle}</h3>
-          <h4 className={styles.schemeOfWork_info_subtitle}>{item.text}</h4>
-        </div>
-        ))}
-    </div>
-        
+        <Pricing/>
+        <Infoabout/>
         
     </div>
 

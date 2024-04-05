@@ -53,18 +53,18 @@ export const BurgerMenu = () => {
                                         <NavigationMenuTrigger className={`${styles.NavigationMenuTrigger} ${styles.resurs}`}>Ресурсы</NavigationMenuTrigger>
                                         <NavigationMenuContent className={styles.NavigationMenuContent2}>
                                             {resources.map((item) => (
+                                                <Link to={item.link} key={item.subtitle}>
                                                 <div key={item.subtitle} className={styles.Header__link}>
                                                     <img className={styles.Header__link_img} src={item.img} alt="" />
                                                     <NavigationMenuLink className={styles.Header__link_subtitle}>{item.subtitle}</NavigationMenuLink>
-                                                    <p>{item.text}</p>
                                                 </div>
+                                                </Link>
                                             ))}
                                         </NavigationMenuContent>
                                     </NavigationMenuItem>
                                 </NavigationMenuList>
                                 <Link to="/parsings-list"><h2 className={`${styles.NavigationMenuTrigge} ${styles.NavigationMenuTrigg}`}>Парсеры</h2></Link>
                                 <Link to="/services"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
-                                <Link to="#"><h2 className={styles.NavigationMenuTrigge}>Форум</h2></Link>
                             </NavigationMenu>
                             <Link to="#"><button className={styles.BurgerMenu_button}>Купить ADA-Parser</button></Link>
                         </SheetDescription>
