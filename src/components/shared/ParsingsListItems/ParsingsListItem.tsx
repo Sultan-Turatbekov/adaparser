@@ -5,7 +5,7 @@ import {ParsingsListItemProps} from "@/src/types/propsType/ParsingsListItemProps
 
 export const ParsingsListItem = ({item, index}:ParsingsListItemProps) =>{
     return (
-        <div key={index} className={`max-w-[400px] py-8 px-7 flex flex-col shadow-xl rounded-[6px] mb-20`}>
+        <div key={index} className={`max-w-[400px] py-8 px-7 flex flex-col shadow-xl rounded-[6px] mx-auto`}>
             <div className={`flex justify-between items-center mb-10 max-h-[50px] h-full`}>
                 <div className={`max-w-14`}>
                     <img className={`w-full`} src={item.img} alt={item.title}/>
