@@ -8,7 +8,7 @@ export const ParsingsList = () => {
             {
                 data.map((item: ParsingListTypes) => (
                     <div className={`py-10`}>
-                        <div className={`flex justify-between mb-10`}>
+                        <div className={`flex flex-col md:flex-row items-center justify-between mb-10`}>
                             <h2 className={`font-bold text-5xl max-w-[425px]`}>{item.title}</h2>
                             <p className={`max-w-[510px] text-[18px] self-end`}>{item.specification}</p>
                         </div>
