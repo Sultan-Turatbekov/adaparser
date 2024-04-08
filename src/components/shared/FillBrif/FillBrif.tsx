@@ -10,13 +10,13 @@ export const FillBrif = () => {
                 </p>
                 <ul className="flex flex-col gap-4">
                     <li className="flex items-start gap-2">
-                        <img className="mt-1" src="brifImages/brifDone.svg" alt="" />
+                        <img className="mt-1" src="/brifImages/brifDone.svg" alt="Галочка" />
                         <span className="text-base lg:text-xl">
                             Предоставляем индивидуальные решения для получения любых данных с любых сайтов
                         </span>
                     </li>
                     <li className="flex items-start gap-2">
-                        <img className="mt-1" src="brifImages/brifDone.svg" alt="" />
+                        <img className="mt-1" src="/brifImages/brifDone.svg" alt="Галочка" />
                         <span className="text-base lg:text-xl">
                             Предоставляем индивидуальные решения для получения любых данных с любых сайтов
                         </span>
@@ -31,7 +31,7 @@ export const FillBrif = () => {
             </div>
 
             <div className="max-w-[100%] lg:max-w-[705px] lg:max-h-[585px]">
-                <img className="w-full" src="brifImages/brif.png" alt="" />
+                <img className="w-full" src="/brifImages/brif.png" alt="Баннер" />
             </div>
         </div>
     );

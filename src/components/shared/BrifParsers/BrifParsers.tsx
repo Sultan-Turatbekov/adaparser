@@ -17,11 +17,11 @@ export const BrifParsers = () => {
                     <h2 className="text-[30px] md:text-[40px] lg:text-[48px] text-center lg:text-left font-bold">Бриф на создание парсера</h2>
                     <ul className="flex flex-col gap-4">
                         <li className="flex items-start gap-2">
-                            <img className="mt-1" src="brifImages/brifDone.svg" alt="" />
+                            <img className="mt-1" src="/brifImages/brifDone.svg" alt="Галочка" />
                             <span className="text-[16px] lg:text-[18px]">Откройте файл Google docs и сделайте дубликат Технического задания (ТЗ), чтобы иметь возможность вносить изменения в копию.</span>
                         </li>
                         <li className="flex items-start gap-2">
-                            <img className="mt-1" src="brifImages/brifDone.svg" alt="" />
+                            <img className="mt-1" src="/brifImages/brifDone.svg" alt="Галочка" />
                             <span className="text-[16px] lg:text-[18px]">Заполните дубликат файла ТЗ, следуя инструкциям в брифе на разработку парсера. После заполнения отправьте готовое ТЗ или ссылку на него в техническую поддержку.</span>
                         </li>
                     </ul>
@@ -31,22 +31,22 @@ export const BrifParsers = () => {
                     <div className="flex flex-col  gap-5 ">
                     <div className="flex gap-5  ">
                         <div className="flex flex-col items-center cursor-pointer text-center p-[5px] lg:p-[30px] md:p-[15px] bg-white-100 rounded-2xl shadow-lg shadow-slate-150 bg-white">
-                            <a className="block flex flex-col items-center"
+                            <a className=" flex flex-col items-center"
                                href={'https://docs.google.com/document/d/1o7U9qFaOY7aJmcjXHhJ_ASQIi3FRXF7RYESO513rAEs/edit'}>
-                                <img className="block" src="brifImages/telegramImage.svg" alt=""/>
+                                <img className="block" src="/brifImages/telegramImage.svg" alt="Telegram"/>
                                 <h3 className="text-[18px] md:text-[24px] lg:text-[28px]"> Отправить в Telegram</h3>
                             </a>
                         </div>
                         <div className="flex flex-col items-center cursor-pointer text-center p-[5px] lg:p-[30px] md:p-[15px] rounded-2xl bg-white-100 shadow-lg shadow-slate-150 bg-white" >
-                            <a className="block flex flex-col items-center" href={'https://docs.google.com/document/d/1o7U9qFaOY7aJmcjXHhJ_ASQIi3FRXF7RYESO513rAEs/edit'}>
-                                <img className="block" src="brifImages/messageImage.png" alt="" />
+                            <a className=" flex flex-col items-center" href={'https://docs.google.com/document/d/1o7U9qFaOY7aJmcjXHhJ_ASQIi3FRXF7RYESO513rAEs/edit'}>
+                                <img className="block" src="/brifImages/messageImage.png" alt="Online-чат" />
                                 <h3 className="text-[18px] md:text-[24px] lg:text-[28px]"> Отправить в Online-чат</h3>
                            </a>
                         </div>
                     </div>
-                        <div className=" cursor-pointer p-[5px]  lg:p-[30px] md:p-[15px] rounded-2xl bg-white-100 shadow-lg shadow-slate-150 bg-white"><a className="block flex flex-col items-center"
+                        <div className=" cursor-pointer p-[5px]  lg:p-[30px] md:p-[15px] rounded-2xl bg-white-100 shadow-lg shadow-slate-150 bg-white"><a className=" flex flex-col items-center"
                                 href={'https://docs.google.com/document/d/1o7U9qFaOY7aJmcjXHhJ_ASQIi3FRXF7RYESO513rAEs/edit'}>
-                            <img className="block" src="brifImages/brifTz.png" alt=""/>
+                            <img className="block" src="/brifImages/brifTz.png" alt="Техническое задание"/>
                             <h3 className="text-[18px] md:text-[24px] lg:text-[28px] text-center"> Заполнить техническое задание</h3>
                         </a></div>
 
@@ -56,7 +56,7 @@ export const BrifParsers = () => {
             </div>
 
             <div className="flex flex-col lg:flex-row justify-center  mt-[100px]">
-                <h1 className=" text-[35px] lg:text-[48px] text-center lg:text-center font-bold lg:w-[50%]">Примеры технических заданий</h1>
+                <h1 className=" text-[35px] lg:text-[48px] text-center lg:text-left font-bold lg:w-[50%]">Примеры технических заданий</h1>
                 <p className="text-[16px] lg:text-[18px] lg:w-[50%] lg:text-left text-center mt-[75px] ">Используйте эти примеры технических заданий в качестве руководства для составления своих собственных заданий.</p>
             </div>
 
@@ -67,13 +67,13 @@ export const BrifParsers = () => {
                             <img className="w-[56px] h-[56px]" src={item.image} alt="Tik Tok" />
                             <button className="border-solid border-2 border-black-500 rounded-md p-[5px] bg-[#F0F2F5] hover:bg-slate-200 transition ease-in-out delay-150">
                                 <a className="flex" href={item.link}>
-                                    <img className="mr-[3px]" src="brifImages/plusImage.svg" />
+                                    <img className="mr-[3px]" src="/brifImages/plusImage.svg" alt="Добавить" />
                                     <p>Открыть</p>
                                 </a>
                             </button>
                         </div>
-                        <h4 className="text-[28px] font-bold">{item.header}</h4>
-                        <p className="text-[18px]">{item.title}</p>
+                        <h4 className="text-[24px] lg:text-[28px] font-bold">{item.header}</h4>
+                        <p className=" tetx-[14px] lg:text-[18px]">{item.title}</p>
                     </div>
                 ))}
             </div>
