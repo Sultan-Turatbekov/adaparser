@@ -61,7 +61,7 @@ import {
                     <Link to="/parsings-list"><h2 className={`${styles.NavigationMenuTrigger} ${styles.NavigationMenuTrigg}`}>Парсеры</h2></Link>
                     <Link to="/services"><h2 className={styles.NavigationMenuTrigge}>Услуги</h2></Link>
                 </NavigationMenu>
-                <Link to="#"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
+                <Link to="https://web.telegram.org/a/#6944523790"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
                 <BurgerMenu />
                 <div className={styles.header_logo_media}>
                     <img src="logoWi.svg" alt="" />

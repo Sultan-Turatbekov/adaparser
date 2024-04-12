@@ -1,9 +1,6 @@
 import {Button} from "@/src/components/ui/button.tsx";
 
 export const Pricing = () => {
-    const handleClick = () => {
-        window.location.href='https://wa.me/+996556444514'
-    }
     return (
         <section className={`my-10`}>
             <div className={`bg-gradient-to-br from-sky-300 to-sky-900 rounded-xl p-4 md:py-12`}>
@@ -26,7 +23,7 @@ export const Pricing = () => {
                             </li>
                         </ul>
                         <Button
-                            className={` mx-auto bg-white hover:bg-gray-200 vtransition-all duration-500 text-sky-600 max-w-[300px] w-full font-[600] text-sm md:text-xl lg:text-2xl`} onClick={handleClick}>Заказать</Button>
+                            className={` mx-auto bg-white hover:bg-gray-200 vtransition-all duration-500 text-sky-600 max-w-[300px] w-full font-[600] text-sm md:text-xl lg:text-2xl`} onClick={()=>window.location.href = 'https://web.telegram.org/a/#6944523790'}>Заказать</Button>
                     </div>
                 </div>
             </div>
