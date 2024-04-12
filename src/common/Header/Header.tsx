@@ -22,7 +22,7 @@ import {
                 <NavigationMenu className={styles.NavigationMenu}>
                     <div className={styles.header_logoContainer}>
                         <Link to="/">
-                            <img src="logoWi.svg" alt="logo" />
+                            <img src="/logoWi.svg" alt="logo" />
                         </Link>
                     </div>
                     <NavigationMenuList className={styles.NavigationMenuList}>
@@ -64,7 +64,7 @@ import {
                 <Link to="https://web.telegram.org/a/#6944523790"><button className={styles.header_button}>Купить ADA-Parser</button></Link>
                 <BurgerMenu />
                 <div className={styles.header_logo_media}>
-                    <img src="logoWi.svg" alt="" />
+                    <img src="/logoWi.svg" alt="" />
                 </div>
             </div>
         </header>

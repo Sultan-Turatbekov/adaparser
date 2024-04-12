@@ -7,7 +7,7 @@ export const Pricing = () => {
                 <h3 className={`text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-10 text-white`}>Закажи ПАРСИНГ прямо сейчас</h3>
                 <div className={`flex flex-col sm:flex-row items-center gap-5`}>
                     <div className={`w-1/2 h-full   `}>
-                        <img width={`100%`} height={`100%`} src="pricingImages/parser.png" alt="pricingImages"/>
+                        <img width={`100%`} height={`100%`} src="/pricingImages/parser.png" alt="pricingImages"/>
                     </div>
                     <div className={`flex flex-col justify-center mx-auto`}>
                         <ul className={`flex flex-col gap-1 md:gap-3 mb-5 sm:mb-10 lg:mb-20`}>
