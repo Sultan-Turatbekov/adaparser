@@ -1,11 +1,9 @@
-import {faFacebook, faInstagram, faTelegram, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import {faTelegram, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 import {IconDefinition} from "@fortawesome/free-regular-svg-icons";
 
 export const contactLinks:contacts[] = [
-    { to: 'https://www.instagram.com/adacourses?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', icon: faInstagram, text: 'adacourses' },
-    { to: '*', icon: faFacebook, text: 'adacourses' },
-    { to: '*', icon: faWhatsapp, text: '+996(777)777-777' },
-    { to: '*', icon: faTelegram, text: '+996(777)777-777' }
+    { to: 'https://wa.me/+79231023027', icon: faWhatsapp, text: 'WhatsApp' },
+    { to: 'https://web.telegram.org/a/#6944523790', icon: faTelegram, text: 'Telegram' }
 ];
 
 export const paymentMethods:payment[] = [
